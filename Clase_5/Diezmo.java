@@ -1,3 +1,5 @@
+package Clase_5;
+
 import java.util.Scanner;
 
 public class Diezmo {
@@ -8,6 +10,6 @@ public class Diezmo {
         double salario = ingresoSalario.nextDouble();
 
         double diezmo = salario * 0.1;
-        System.out.println("El diezmo de "+ salario + " es: " + diezmo);
+        System.out.println("El diezmo de "+ salario + " es : " + diezmo);
     }
 }
